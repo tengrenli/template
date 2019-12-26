@@ -1,7 +1,10 @@
 {
-  "name": "{{projectName}}",
-  "version": "{{projectVersion}}",
-  "description": "{{projectDescription}}",
+  "name": "{{name}}",
+  "version": "12",
+  "description": "{{description}}",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  {{#if vuex}}
+  "test": "test"
+  {{/if}}
 }
